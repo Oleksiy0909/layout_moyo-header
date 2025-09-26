@@ -8,6 +8,7 @@ body {
 }
 
 a {
+  display: flex;
   text-decoration: none;
   color: black;
   padding: 0;
@@ -54,6 +55,10 @@ a.header_logo_link {
 
 .nav_link:last-child {
   margin: 0;
+}
+
+.nav_item {
+    height: 60px;
 }
 
 a.is-active {
